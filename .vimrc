@@ -32,7 +32,7 @@ set encoding=utf-8
 "install pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
-Helptags
+"Helptags
 "powerline config
 "powerline{
 "set guifont=PowerlineSymbols for Powerline
