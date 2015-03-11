@@ -33,12 +33,14 @@ set encoding=utf-8
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 "Helptags
+
 "powerline config
 "powerline{
 "set guifont=PowerlineSymbols for Powerline
+let g:airline_powerline_fonts = 1
 set ls=2
 set t_Co=256
-let g:Powerline_symbols = 'fancy'
+"let g:Powerline_symbols = 'fancy'
 "}
 
 "ctags
