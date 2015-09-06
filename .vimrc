@@ -3,8 +3,6 @@ filetype on
 set ambiwidth=double
 set autoindent
 set cindent
-set cursorline
-hi CursorLine cterm=bold ctermbg=LightBlue
 set expandtab
 set history=1000
 set ignorecase
@@ -52,6 +50,12 @@ let g:airline_symbols.space = "\ua0"
 
 "dos format
 set fileformats=unix,dos
+
+"cursorline
+set cursorline
+hi cursorline cterm=bold ctermbg=darkblue ctermfg=white
+"set cursorcolumn
+"hi CursorColumn cterm=NONE ctermbg=darkred ctermfg=white
 
 "---------------------------------Taglist.vim-------------------->>
 let Tlist_Show_One_File=1 
@@ -132,4 +136,5 @@ map <silent> <leader>ee :e $MYVIMRC<cr>
 map <silent> <leader>er :so $MYVIMRC<cr>
 map <silent> <leader>ea :so ./prj.vimrc<cr>
 map <silent> <leader>d :g/^\(.*\)$\n\1$/d<cr>
+
 
